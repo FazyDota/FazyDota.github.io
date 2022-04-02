@@ -3,7 +3,6 @@ layout: post
 title: Aftershock test
 ---
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel=stylesheet>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/css/dataTables.bootstrap4.min.css" rel=stylesheet>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -304,3 +303,21 @@ title: Aftershock test
     </tr>
   </tbody>
 </table>
+
+## Hello
+Blabla blas.
+
+ASDASD A
+And therefore blablabla.
+
+Test
+Blink Strike does not work
+Arc Lightning: with Octarine Core, you can perfectly chainstun someone with 0% status resistance
+    requires you to face them
+    test with ping?
+    
+Charge Based abilities:
+    Remote Mines
+    Fire Remnant
+    
+Phase Shift does not work

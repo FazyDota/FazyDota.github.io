@@ -7,7 +7,7 @@
 
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
+@import "highlights";
 
 /**************/
 /* BASE RULES */
@@ -20,12 +20,22 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $black;
+}
+
+table.dataTable.table-sm .sorting:before, table.dataTable.table-sm .sorting_asc:before, table.dataTable.table-sm .sorting_desc:before
+{
+  display: none !important;
+}
+
+table.dataTable.table-sm .sorting:after, table.dataTable.table-sm .sorting_asc:after, table.dataTable.table-sm .sorting_desc:after
+{
+  display: none !important;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1280px;
   padding: 0 10px;
   width: 100%;
 }
@@ -285,5 +295,4 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
+
